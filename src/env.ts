@@ -1,6 +1,7 @@
 import { envsafe, str, bool } from "envsafe";
 
 export const env = envsafe({
+  BACKUP_NAME: str(),
   AWS_ACCESS_KEY_ID: str(),
   AWS_SECRET_ACCESS_KEY: str(),
   AWS_S3_BUCKET: str(),
